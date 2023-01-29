@@ -18,5 +18,3 @@ with open("server.log") as f:
 bow_3 = Counter(sites)
 result = bow_3.most_common(1)
 print(result[0][0][10:],result[0][1])
-
-        
